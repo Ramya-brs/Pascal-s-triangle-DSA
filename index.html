@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Pascal's Triangle | DSA</title>
+    <link rel="icon" href="assets/img/brs-logo.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <h2>Pascal's Triangle</h2>
+  </head>
+  <body>
+  
+  <div class="container" >
+    <main role="main" style="margin-bottom: 100px;">
+      <h5>Given an integer numRows, return the first numRows of Pascal's triangle</h5>
+      <p>
+        This code defines a function generatePascalsTriangle that takes the number of rows (numRows) as input and returns Pascal's triangle as a 2D array. The function uses nested loops to calculate each element based on the rule that each number is the sum of the two numbers 
+      </p>
+
+      <label for="numRows">Enter the number of rows:</label>
+      <input type="number" id="numRows" min="1" max="30">
+      <button onclick="generateTriangle()">Generate Triangle</button>
+
+      <div id="output"></div>
+    </main>
+  </div>
+
+     <script src="assets/js/pascal's-triangle.js" defer></script>
+
+  </body>
+</html>
